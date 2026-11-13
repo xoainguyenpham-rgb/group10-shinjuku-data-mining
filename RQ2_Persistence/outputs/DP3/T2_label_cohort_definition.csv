@@ -1,0 +1,3 @@
+dataset_split,purpose,baseline_period,baseline_cohort,followup_period,rows,present_next_1,present_next_0,use_in_model_selection,target_variable,target_definition,record_key
+train,Model development and cross-validation only,2026_Q1,Shinjuku Ku,2026_Q2,4166,3900,266,Yes,present_next,1 if listing_id appears anywhere in full Tokyo follow-up snapshot; 0 otherwise.,listing_id + followup_period
+test,Untouched final temporal test,2026_Q2,Shinjuku Ku,2026_Q3,5689,5372,317,No,present_next,1 if listing_id appears anywhere in full Tokyo follow-up snapshot; 0 otherwise.,listing_id + followup_period

@@ -1,0 +1,5 @@
+﻿split,baseline_period,followup_period,present_next,n_listings
+test,2026_Q2,2026_Q3,0,317
+test,2026_Q2,2026_Q3,1,5372
+train,2026_Q1,2026_Q2,0,266
+train,2026_Q1,2026_Q2,1,3900

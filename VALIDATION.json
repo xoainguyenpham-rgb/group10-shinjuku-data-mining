@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": {
+    "raw_hash_Tokyo_listings_2026_Q1.csv": true,
+    "raw_hash_Tokyo_listings_2026_Q2.csv": true,
+    "raw_hash_Tokyo_listings_2025_Q4.csv": true,
+    "raw_hash_Tokyo_listings_2026_Q3.csv": true,
+    "01_T1_RQ1_Q2_Shinjuku.csv_rows_and_ids": true,
+    "02_T2_RQ2_train_Q1_to_Q2.csv_rows_and_ids": true,
+    "03_T2_RQ2_test_Q2_to_Q3.csv_rows_and_ids": true,
+    "04_T3_RQ3_Q2_four_wards.csv_rows_and_ids": true,
+    "test_absent_317": true,
+    "final_cluster_counts": true,
+    "rq1_exact_priced_cohort": true,
+    "M2_observed_median_price_numeric": true,
+    "M2_observed_median_accommodates_clean": true,
+    "M2_observed_median_minimum_nights_clean": true,
+    "M2_observed_median_availability_365_clean": true,
+    "M2_observed_median_reviews_per_month_clean": true,
+    "M2_observed_median_calculated_host_listings_count_clean": true,
+    "RF_confusion_matrix_reproduced": true,
+    "M3_prediction_rows": true,
+    "DP4_QA.json_PASS": true,
+    "M4_QA.json_PASS": true
+  }
+}

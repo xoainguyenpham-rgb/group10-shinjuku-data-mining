@@ -1,0 +1,11 @@
+﻿snapshot,scope,source,n,share_pct
+2026_Q1,Tokyo,city scrape,24790,100.0
+2026_Q1,Shinjuku,city scrape,4166,100.0
+2026_Q2,Tokyo,city scrape,32684,94.96
+2026_Q2,Tokyo,previous scrape,1735,5.04
+2026_Q2,Shinjuku,city scrape,5367,94.34
+2026_Q2,Shinjuku,previous scrape,322,5.66
+2026_Q3,Tokyo,(missing),27767,77.19
+2026_Q3,Tokyo,previous scrape,8203,22.81
+2026_Q3,Shinjuku,(missing),4527,75.17
+2026_Q3,Shinjuku,previous scrape,1495,24.83

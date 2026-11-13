@@ -1,0 +1,24 @@
+﻿variable,RQ1_role,RQ2_role,RQ3_role
+listing_id,Metadata - exclude from clustering,Metadata/group - exclude from predictors,Metadata - not a numeric measure
+host_id,Metadata - exclude from clustering,Metadata/group - exclude from predictors,Metadata - not a numeric measure
+snapshot,Metadata - exclude from clustering,Not included,Metadata - not a numeric measure
+neighbourhood_cleansed,Metadata - exclude from clustering,Metadata/group - exclude from predictors,Comparison grouping/category
+room_type,Cluster profiling only,Categorical predictor,Comparison grouping/category
+superhost_status,Cluster profiling only,Categorical predictor,Comparison grouping/category
+price_numeric,Primary clustering input,Numeric predictor,Observed numeric measure
+accommodates_clean,Primary clustering input,Numeric predictor,Observed numeric measure
+bedrooms_clean,Cluster profiling only,Numeric predictor,Observed numeric measure
+beds_clean,Cluster profiling only,Numeric predictor,Observed numeric measure
+bathrooms_clean,Cluster profiling only,Numeric predictor,Observed numeric measure
+minimum_nights_clean,Primary clustering input,Numeric predictor,Observed numeric measure
+availability_365_clean,Primary clustering input,Numeric predictor,Observed numeric measure
+number_of_reviews_clean,Cluster profiling only,Numeric predictor,Observed numeric measure
+reviews_per_month_clean,Primary clustering input,Numeric predictor,Observed numeric measure
+review_scores_rating_clean,Cluster profiling only,Numeric predictor,Observed numeric measure
+calculated_host_listings_count_clean,Primary clustering input,Numeric predictor,Observed numeric measure
+capacity_group,Cluster profiling only,Metadata/group - exclude from predictors,Comparison grouping/category
+host_portfolio_group,Cluster profiling only,Metadata/group - exclude from predictors,Comparison grouping/category
+baseline_period,Not included,Metadata/group - exclude from predictors,Not included
+followup_period,Not included,Metadata/group - exclude from predictors,Not included
+split,Not included,Metadata/group - exclude from predictors,Not included
+present_next,Not included,Target,Not included

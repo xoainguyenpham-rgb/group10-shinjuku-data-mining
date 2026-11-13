@@ -1,0 +1,43 @@
+﻿variable,dtype,unit,definition,role
+listing_id,string,text ID,Listing identifier; keep as text.,key
+host_id,string,text ID,Host identifier; host counts are not additive across groups.,metadata
+snapshot,object,period,Baseline snapshot label 2026_Q2; see source dates in provenance.,key
+neighbourhood_cleansed,object,ward,"Ward at baseline, inherited from DP1.",group
+room_type,object,category,DP1 room type.,group
+superhost_status,object,category,DP1 superhost status; not a legal or quality certification.,description
+price_numeric,float64,JPY/night,"Observed advertised nightly price; no imputation, clipping or scaling.",price analysis
+accommodates_clean,float64,guests,DP1 cleaned guest capacity.,description
+bedrooms_clean,float64,bedrooms,DP1 cleaned bedrooms; missing retained.,description
+beds_clean,float64,beds,DP1 cleaned beds; missing retained.,description
+bathrooms_clean,float64,bathrooms,DP1 resolved numeric/text bathroom value; missing retained.,description
+minimum_nights_clean,float64,nights,DP1 minimum stay requirement.,description
+availability_365_clean,float64,days,Calendar availability over 365 days; not occupancy.,description
+number_of_reviews_clean,float64,reviews,DP1 total reviews; not bookings.,description
+reviews_per_month_clean,float64,reviews/month,DP1 review frequency; missing retained.,description
+review_scores_rating_clean,float64,rating,DP1 rating; missing retained.,description
+calculated_host_listings_count_clean,float64,listings/host,Supplied Tokyo-scoped host count; not recalculated within ward.,description
+capacity_group,object,category,"1-2, 3-4, 5+ guests, inherited and checked against capacity.",group
+host_portfolio_group,object,category,"1, 2-5, 6+ based on supplied Tokyo host count; distributions count listings.",group
+area_name,object,text,Short ward display label.,metadata
+area_role,object,category,Focal / primary comparator / sensitivity comparator.,metadata
+comparison_group,object,text,"room_type | capacity_group; a descriptive stratum, not exact matching.",group
+comparison_group_definition,object,text,Explicit grouping rule.,metadata
+missing_price_numeric,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_accommodates_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_bedrooms_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_beds_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_bathrooms_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_minimum_nights_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_availability_365_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_number_of_reviews_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_reviews_per_month_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_review_scores_rating_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+missing_calculated_host_listings_count_clean,int64,0/1,1 means missing in the corresponding original numeric variable; 0 means observed.,missingness audit
+followup_period,object,period,"2026_Q3, label observation period.",key
+present_next_observed,int64,0/1,1 if ID occurs anywhere in full Tokyo Q3; 0 otherwise. Not survival or compliance.,retrospective outcome; never predictor
+presence_label_source,object,text,Source used to construct observed presence.,metadata
+rq1_model_eligible,int64,0/1,"Shinjuku Q2 with observed price, following current DP2 cohort.",metadata
+rq1_cluster,string,category,Optional FINAL Shinjuku cluster label; blank until supplied.,optional result
+rq1_cluster_status,object,category,matched / awaiting_final_labels / excluded_missing_price / outside_rq1_scope / not_in_supplied_results.,coverage
+rq2_pred_present_probability,float64,0-1 probability,Optional frozen-model final test P(present_next=1); not the observed outcome.,optional result
+rq2_prediction_status,object,category,matched / awaiting_final_predictions / outside_rq2_scope / not_in_supplied_results.,coverage

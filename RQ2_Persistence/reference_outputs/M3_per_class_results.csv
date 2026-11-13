@@ -1,0 +1,13 @@
+stage,model,class,precision,recall,f1,support
+stratified_5_fold_cv_train_Q1_to_Q2,Constant,0,0.0,0.0,0.0,266
+stratified_5_fold_cv_train_Q1_to_Q2,Constant,1,0.9361497839654345,1.0,0.9670220679394992,3900
+stratified_5_fold_cv_train_Q1_to_Q2,Logistic Regression,0,0.0,0.0,0.0,266
+stratified_5_fold_cv_train_Q1_to_Q2,Logistic Regression,1,0.9361497839654345,1.0,0.9670220679394992,3900
+stratified_5_fold_cv_train_Q1_to_Q2,Decision Tree,0,0.39097744360902253,0.19548872180451127,0.2606516290726817,266
+stratified_5_fold_cv_train_Q1_to_Q2,Decision Tree,1,0.9469377634515249,0.9792307692307692,0.9628135635951091,3900
+stratified_5_fold_cv_train_Q1_to_Q2,Random Forest,0,0.6019417475728155,0.23308270676691728,0.33604336043360433,266
+stratified_5_fold_cv_train_Q1_to_Q2,Random Forest,1,0.9497907949790795,0.9894871794871795,0.96923270124325,3900
+final_temporal_test_Q2_to_Q3,Constant,0,0.0,0.0,0.0,317
+final_temporal_test_Q2_to_Q3,Constant,1,0.9442784320618738,1.0,0.9713407467679234,5372
+final_temporal_test_Q2_to_Q3,Random Forest,0,0.1566265060240964,0.04100946372239748,0.065,317
+final_temporal_test_Q2_to_Q3,Random Forest,1,0.9457723867285052,0.986969471332837,0.9659318637274549,5372

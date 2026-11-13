@@ -1,0 +1,2 @@
+# RQ2 — Temporal listing-ID presence
+Use the root runner and requirements. The supplied current DP3/M3 scripts are authoritative. Inputs are copied from freshly generated DP1. outputs/M3 contains this reproduced run; reference_outputs contains the previously reviewed run. GUI workflow is illustrative and may need file rebinding. Raw-snapshot alternative notebooks are omitted to avoid ambiguous competing pipelines. See the root README for evaluation limitations.

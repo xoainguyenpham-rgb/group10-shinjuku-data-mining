@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "created_with": "Python/pandas",
+  "created_at_utc": "2026-11-12T14:02:37.819233+00:00",
+  "temporal_design": {
+    "train": "Shinjuku Q1 baseline -> full Tokyo Q2 label",
+    "final_test": "Shinjuku Q2 baseline -> full Tokyo Q3 label"
+  },
+  "inputs_not_bundled": {
+    "train": {
+      "sha256": "2adaab6fb846eddc522377e26980d6a0fae1de0297b6d04d660ee509096367fc",
+      "source_file": "02_T2_RQ2_train_Q1_to_Q2.csv",
+      "rows": 4166,
+      "target_counts": {
+        "1": 3900,
+        "0": 266
+      },
+      "checks": {
+        "schema_matches": true,
+        "row_count_matches": true,
+        "baseline_period_matches": true,
+        "followup_period_matches": true,
+        "split_matches": true,
+        "shinjuku_cohort_matches": true,
+        "listing_id_non_missing": true,
+        "listing_id_unique_within_cohort": true,
+        "target_counts_match": true,
+        "bathrooms_clean_present": true,
+        "raw_bathrooms_absent": true,
+        "estimated_predictors_absent": true,
+        "primary_predictors_present": true
+      }
+    },
+    "test": {
+      "sha256": "a0a543f0f1d6bea5460cdb73e3c5c3180d431ef879fc5ef7d3bd0a036117d36a",
+      "source_file": "03_T2_RQ2_test_Q2_to_Q3.csv",
+      "rows": 5689,
+      "target_counts": {
+        "1": 5372,
+        "0": 317
+      },
+      "checks": {
+        "schema_matches": true,
+        "row_count_matches": true,
+        "baseline_period_matches": true,
+        "followup_period_matches": true,
+        "split_matches": true,
+        "shinjuku_cohort_matches": true,
+        "listing_id_non_missing": true,
+        "listing_id_unique_within_cohort": true,
+        "target_counts_match": true,
+        "bathrooms_clean_present": true,
+        "raw_bathrooms_absent": true,
+        "estimated_predictors_absent": true,
+        "primary_predictors_present": true
+      }
+    }
+  },
+  "output": {
+    "file": "T2_clean.csv",
+    "rows": 9855,
+    "record_key": "listing_id + followup_period",
+    "sha256": "00ae15d5d55161e72b1cbb7a38b3d32bf49d74aaa2312cd87698fabff673cf39"
+  },
+  "primary_predictors": [
+    "room_type",
+    "superhost_status",
+    "price_numeric",
+    "accommodates_clean",
+    "bedrooms_clean",
+    "beds_clean",
+    "bathrooms_clean",
+    "minimum_nights_clean",
+    "availability_365_clean",
+    "number_of_reviews_clean",
+    "reviews_per_month_clean",
+    "review_scores_rating_clean",
+    "calculated_host_listings_count_clean"
+  ],
+  "leakage_checks": {
+    "all_predictors_available_at_baseline": true,
+    "target_not_a_predictor": true,
+    "id_and_host_not_predictors": true,
+    "followup_and_split_not_predictors": true,
+    "estimated_occupancy_excluded": true,
+    "estimated_revenue_excluded": true,
+    "bathrooms_clean_used": true,
+    "compound_key_unique": true,
+    "no_random_resplit": true,
+    "learned_preprocessing_not_fitted": true,
+    "final_test_not_for_tuning": true
+  },
+  "later_modeling_rule": "Fit imputation, encoding, scaling, and feature selection inside each training fold; then refit train and evaluate final test once."
+}

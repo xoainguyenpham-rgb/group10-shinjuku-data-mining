@@ -1,0 +1,5 @@
+﻿transition,followup_source,matched_n,share_of_matched_pct
+2026_Q1 → 2026_Q2,city scrape,3795,97.31
+2026_Q1 → 2026_Q2,previous scrape,105,2.69
+2026_Q2 → 2026_Q3,(missing),3925,73.06
+2026_Q2 → 2026_Q3,previous scrape,1447,26.94

@@ -1,0 +1,5 @@
+﻿file_name,source_archive,source_member,size_bytes,sha256,notes
+Tokyo_listings_2026_Q1.csv,raw_data_Data Mining-20261101T181152Z-1-001.zip,raw_data_Data Mining/Tokyo_listings_2026_Q1.csv,82735352,d6ef8422e57c49d89cac612c72d9a0fdb9175962294660bba1f26484e1b130e0,Main baseline snapshot for 2026 Q1.
+Tokyo_listings_2026_Q2.csv,raw_data_Data Mining-20261101T181152Z-1-001.zip,raw_data_Data Mining/Tokyo_listings_2026_Q2.csv,115873852,4b2e6c60cd30c3d2d27490ab333a47141949f5149753bfdd4cff3187b8878d12,Main baseline/follow-up snapshot for RQ2 and the supplied late-June 2026 source used by legacy DU4.
+Tokyo_listings_2025_Q4.csv,raw_data_Data Mining-20261101T181152Z-1-001.zip,raw_data_Data Mining/Tokyo_listings_2025_Q4.csv,74488761,c61b77b1bb5f53e6215f8c909e0e015a573369897220fb4c42a4842ed2b646c1,Supplementary historical snapshot retained from the raw-data archive; not required by the main DP1 pipeline.
+Tokyo_listings_2026_Q3.csv,raw_data_Data Mining-20261101T181152Z-1-001.zip,raw_data_Data Mining/Tokyo_listings_2026_Q3.csv,121025589,031946d0808789b4964112be1c2bbfb62b93c276acedd9da0302d1903cde3f03,Main follow-up snapshot for 2026 Q3.

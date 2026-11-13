@@ -1,0 +1,17 @@
+{
+  "purpose": "Generated from current DP1 and original full Tokyo Q3 snapshot.",
+  "packaged_inputs": {
+    "04_T3_RQ3_Q2_four_wards.csv": {
+      "sha256": "c329fba5c1940c01b3d844ee26b1ad5f3da22e7e952a692ee322a32231d80fff",
+      "bytes": 1849067
+    },
+    "03_T2_RQ2_test_Q2_to_Q3.csv": {
+      "sha256": "a0a543f0f1d6bea5460cdb73e3c5c3180d431ef879fc5ef7d3bd0a036117d36a",
+      "bytes": 796133
+    },
+    "Tokyo_Q3_listing_ids.csv": {
+      "sha256": "e18ac433fbc8d155e5c6fb6efe410ef7173ee02da6da913baf1f0c4be22c7a18",
+      "bytes": 941946
+    }
+  }
+}

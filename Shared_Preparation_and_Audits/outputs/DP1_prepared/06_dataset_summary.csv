@@ -1,0 +1,5 @@
+﻿dataset,rows,columns,unique_listings
+T1_RQ1_Q2_Shinjuku,5689,19,5689
+T2_RQ2_train_Q1_to_Q2,4166,22,4166
+T2_RQ2_test_Q2_to_Q3,5689,22,5689
+T3_RQ3_Q2_four_wards,14935,19,14935

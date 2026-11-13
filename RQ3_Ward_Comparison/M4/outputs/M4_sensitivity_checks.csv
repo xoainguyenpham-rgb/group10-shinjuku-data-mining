@@ -1,0 +1,22 @@
+﻿comparator,scenario,weighted_geometric_price_gap_pct,weighted_presence_gap_pp,shinjuku_coverage_pct,note
+Shibuya,Cell minimum 1,-11.568052366241249,-0.22409629844025555,99.20899982422219,Full baseline; weights use supported Shinjuku listing counts
+Shibuya,Cell minimum 20,-11.613375670725343,-0.22457377634886408,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Shibuya,Cell minimum 30,-11.613375670725343,-0.22457377634886408,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Shibuya,Cell minimum 50,-11.398139417098626,-0.24670041849108099,96.9590437686764,Full baseline; weights use supported Shinjuku listing counts
+Shibuya,Priced only,-11.526090609840525,0.08660393114594707,98.96771771771772,"Coverage denominator is 5,328 priced Shinjuku listings"
+Shibuya,Cap JPY 200000,-10.97816053222301,-0.22457377634886408,98.99806644401477,High prices omitted from price medians only; listing rows retained
+Shibuya,Ward price percentile 99,-11.522939102994343,-0.22457377634886408,98.99806644401477,High prices omitted from price medians only; listing rows retained
+Toshima,Cell minimum 1,22.35014499908435,-0.4927104750267116,99.68359992968887,Full baseline; weights use supported Shinjuku listing counts
+Toshima,Cell minimum 20,21.782567227362414,-0.6381678096371592,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Toshima,Cell minimum 30,21.782567227362414,-0.6381678096371592,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Toshima,Cell minimum 50,21.745583930682216,-0.6406265387232435,96.9590437686764,Full baseline; weights use supported Shinjuku listing counts
+Toshima,Priced only,21.823252761713558,-0.6683403395802063,98.96771771771772,"Coverage denominator is 5,328 priced Shinjuku listings"
+Toshima,Cap JPY 200000,21.494656316486104,-0.6381678096371592,98.99806644401477,High prices omitted from price medians only; listing rows retained
+Toshima,Ward price percentile 99,21.539171317525724,-0.6381678096371592,98.99806644401477,High prices omitted from price medians only; listing rows retained
+Taito,Cell minimum 1,4.501439713146678,1.933770074865085,100.0,Full baseline; weights use supported Shinjuku listing counts
+Taito,Cell minimum 20,4.574859244831233,1.951946064181168,99.40235542274564,Full baseline; weights use supported Shinjuku listing counts
+Taito,Cell minimum 30,4.5230896919889085,1.959917434826795,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Taito,Cell minimum 50,4.5230896919889085,1.959917434826795,98.99806644401477,Full baseline; weights use supported Shinjuku listing counts
+Taito,Priced only,4.586509657791249,-0.6051346053139728,98.96771771771772,"Coverage denominator is 5,328 priced Shinjuku listings"
+Taito,Cap JPY 200000,3.8331822469802885,1.959917434826795,98.99806644401477,High prices omitted from price medians only; listing rows retained
+Taito,Ward price percentile 99,4.243745105115269,1.959917434826795,98.99806644401477,High prices omitted from price medians only; listing rows retained

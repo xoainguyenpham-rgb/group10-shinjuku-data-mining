@@ -1,0 +1,9 @@
+﻿ward,cohort,n_listings,n_present,presence_pct
+Shinjuku,Priced,5328,5048,94.74474474474475
+Shinjuku,Price missing,361,324,89.75069252077562
+Shibuya,Priced,2292,2167,94.54624781849913
+Shibuya,Price missing,141,133,94.32624113475178
+Toshima,Priced,3000,2855,95.16666666666667
+Toshima,Price missing,232,210,90.51724137931035
+Taito,Priced,3362,3224,95.89530041641879
+Taito,Price missing,219,136,62.10045662100456

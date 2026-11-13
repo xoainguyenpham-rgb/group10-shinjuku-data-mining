@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "baseline_rows": 14935,
+  "clustered_rows": 5328,
+  "unclustered_price_missing": 361,
+  "final_cluster_counts": {
+    "1": 647,
+    "2": 1185,
+    "3": 1440,
+    "4": 1030,
+    "5": 1026
+  },
+  "segment_minimum_per_side": 30,
+  "source_sha256": {
+    "T3_compare.csv": "2e3eca6be6518332ac47992f63cda55466cd5506860410b99b40a83d6b39cbab",
+    "previous_segment_benchmarks.csv": "08c0d601891c1cd531ca179c995ca73de47af28bfd6317d071a45abf8e7dc82b",
+    "Q1_id_cluster.csv": "ea3df9b6a8808672bf0277504117542c71a8bc27cdcdb2565ed068c7d9ba5593"
+  },
+  "uncertainty": "Descriptive point estimates only; no significance stars or inferential intervals",
+  "rq2_predictions_used": false,
+  "scope": "Checks cover implemented joins, cohort counts, formulas and reproduction of ward headline values."
+}

@@ -1,0 +1,6 @@
+﻿neighbourhood_cleansed,rq1_cluster_status,rq2_prediction_status,n_listings
+Shibuya Ku,outside_rq1_scope,outside_rq2_scope,2433
+Shinjuku Ku,awaiting_final_labels,awaiting_final_predictions,5328
+Shinjuku Ku,excluded_missing_price,awaiting_final_predictions,361
+Taito Ku,outside_rq1_scope,outside_rq2_scope,3581
+Toshima Ku,outside_rq1_scope,outside_rq2_scope,3232

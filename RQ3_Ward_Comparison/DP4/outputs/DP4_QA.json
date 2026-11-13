@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "DP4 preparation and retrospective labels only; no model evaluation",
+  "rows": 14935,
+  "columns": 42,
+  "source_columns_preserved": true,
+  "duplicate_baseline_keys": 0,
+  "row_inflation": 0,
+  "price_missing_retained": 953,
+  "shinjuku_label_disagreements_with_dp3": 0,
+  "group_cells": 48,
+  "pairwise_support_rows": 36,
+  "rq1_labels_loaded": false,
+  "rq2_predictions_loaded": false,
+  "unresolved_rq1_eligible": 5328,
+  "unresolved_rq2_in_scope": 5689,
+  "small_cell_threshold": 30,
+  "small_cell_rule": "Descriptive caution only, not a significance criterion; no rows dropped.",
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

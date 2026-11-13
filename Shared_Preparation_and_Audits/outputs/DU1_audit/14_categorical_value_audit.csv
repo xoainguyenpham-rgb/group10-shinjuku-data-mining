@@ -1,0 +1,86 @@
+﻿snapshot,variable,value,n
+2026_Q1,room_type,Entire home/apt,3735
+2026_Q1,room_type,Private room,379
+2026_Q1,room_type,Hotel room,27
+2026_Q1,room_type,Shared room,25
+2026_Q1,host_is_superhost,t,2217
+2026_Q1,host_is_superhost,f,1949
+2026_Q1,bathrooms_text,1 bath,2920
+2026_Q1,bathrooms_text,1.5 baths,410
+2026_Q1,bathrooms_text,2 baths,307
+2026_Q1,bathrooms_text,1 private bath,267
+2026_Q1,bathrooms_text,1 shared bath,82
+2026_Q1,bathrooms_text,Half-bath,51
+2026_Q1,bathrooms_text,3 baths,31
+2026_Q1,bathrooms_text,2.5 baths,29
+2026_Q1,bathrooms_text,2 shared baths,15
+2026_Q1,bathrooms_text,0 baths,10
+2026_Q1,bathrooms_text,Private half-bath,10
+2026_Q1,bathrooms_text,3.5 baths,9
+2026_Q1,bathrooms_text,4 baths,6
+2026_Q1,bathrooms_text,3 shared baths,5
+2026_Q1,bathrooms_text,6 baths,3
+2026_Q1,bathrooms_text,Shared half-bath,3
+2026_Q1,bathrooms_text,1.5 shared baths,3
+2026_Q1,bathrooms_text,0 shared baths,2
+2026_Q1,bathrooms_text,4 shared baths,1
+2026_Q1,bathrooms_text,5 shared baths,1
+2026_Q1,bathrooms_text,4.5 baths,1
+2026_Q2,room_type,Entire home/apt,4979
+2026_Q2,room_type,Private room,653
+2026_Q2,room_type,Hotel room,31
+2026_Q2,room_type,Shared room,26
+2026_Q2,host_is_superhost,t,2988
+2026_Q2,host_is_superhost,f,2701
+2026_Q2,bathrooms_text,1 bath,3989
+2026_Q2,bathrooms_text,1.5 baths,530
+2026_Q2,bathrooms_text,1 private bath,441
+2026_Q2,bathrooms_text,2 baths,373
+2026_Q2,bathrooms_text,1 shared bath,114
+2026_Q2,bathrooms_text,Half-bath,49
+2026_Q2,bathrooms_text,Private half-bath,38
+2026_Q2,bathrooms_text,2.5 baths,38
+2026_Q2,bathrooms_text,3 baths,37
+2026_Q2,bathrooms_text,2 shared baths,26
+2026_Q2,bathrooms_text,0 baths,9
+2026_Q2,bathrooms_text,3.5 baths,8
+2026_Q2,bathrooms_text,4 baths,7
+2026_Q2,bathrooms_text,1.5 shared baths,6
+2026_Q2,bathrooms_text,0 shared baths,6
+2026_Q2,bathrooms_text,3 shared baths,5
+2026_Q2,bathrooms_text,6 baths,4
+2026_Q2,bathrooms_text,Shared half-bath,3
+2026_Q2,bathrooms_text,5 shared baths,2
+2026_Q2,bathrooms_text,4 shared baths,1
+2026_Q2,bathrooms_text,4.5 baths,1
+2026_Q2,bathrooms_text,5.5 baths,1
+2026_Q2,bathrooms_text,5 baths,1
+2026_Q3,room_type,Entire home/apt,5344
+2026_Q3,room_type,Private room,608
+2026_Q3,room_type,Shared room,39
+2026_Q3,room_type,Hotel room,31
+2026_Q3,host_is_superhost,t,3136
+2026_Q3,host_is_superhost,f,2886
+2026_Q3,bathrooms_text,1 bath,4312
+2026_Q3,bathrooms_text,1.5 baths,543
+2026_Q3,bathrooms_text,1 private bath,402
+2026_Q3,bathrooms_text,2 baths,380
+2026_Q3,bathrooms_text,1 shared bath,112
+2026_Q3,bathrooms_text,Half-bath,65
+2026_Q3,bathrooms_text,3 baths,43
+2026_Q3,bathrooms_text,2.5 baths,41
+2026_Q3,bathrooms_text,Private half-bath,30
+2026_Q3,bathrooms_text,2 shared baths,24
+2026_Q3,bathrooms_text,0 baths,15
+2026_Q3,bathrooms_text,3.5 baths,8
+2026_Q3,bathrooms_text,1.5 shared baths,8
+2026_Q3,bathrooms_text,4 baths,8
+2026_Q3,bathrooms_text,3 shared baths,7
+2026_Q3,bathrooms_text,4 shared baths,6
+2026_Q3,bathrooms_text,0 shared baths,6
+2026_Q3,bathrooms_text,6 baths,4
+2026_Q3,bathrooms_text,Shared half-bath,3
+2026_Q3,bathrooms_text,5 shared baths,2
+2026_Q3,bathrooms_text,5 baths,1
+2026_Q3,bathrooms_text,5.5 baths,1
+2026_Q3,bathrooms_text,4.5 baths,1

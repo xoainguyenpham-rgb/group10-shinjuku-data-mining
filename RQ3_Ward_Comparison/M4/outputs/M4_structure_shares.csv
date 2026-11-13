@@ -1,0 +1,40 @@
+﻿ward,dimension,category,n_listings,denominator,share_pct
+Shinjuku,room_type,Entire home/apt,4979,5689,87.51977500439445
+Shinjuku,room_type,Private room,653,5689,11.47829143962032
+Shinjuku,room_type,Hotel room,31,5689,0.544911232202496
+Shinjuku,room_type,Shared room,26,5689,0.4570223237827386
+Shinjuku,capacity_group,3-4,2261,5689,39.74336438741431
+Shinjuku,capacity_group,5+,1734,5689,30.479873439971875
+Shinjuku,capacity_group,1-2,1694,5689,29.776762172613815
+Shinjuku,host_portfolio_group,6+,4430,5689,77.86957285990508
+Shinjuku,host_portfolio_group,2-5,938,5689,16.487959219546493
+Shinjuku,host_portfolio_group,1,321,5689,5.642467920548427
+Shibuya,room_type,Entire home/apt,2251,2433,92.51952322235923
+Shibuya,room_type,Private room,180,2433,7.398273736128237
+Shibuya,room_type,Shared room,2,2433,0.08220304151253596
+Shibuya,capacity_group,3-4,881,2433,36.21043978627209
+Shibuya,capacity_group,5+,791,2433,32.511302918207974
+Shibuya,capacity_group,1-2,761,2433,31.278257295519936
+Shibuya,host_portfolio_group,6+,1663,2433,68.35182901767365
+Shibuya,host_portfolio_group,2-5,577,2433,23.715577476366626
+Shibuya,host_portfolio_group,1,193,2433,7.93259350595972
+Toshima,room_type,Entire home/apt,2889,3232,89.38737623762377
+Toshima,room_type,Private room,334,3232,10.334158415841584
+Toshima,room_type,Shared room,6,3232,0.18564356435643564
+Toshima,room_type,Hotel room,3,3232,0.09282178217821782
+Toshima,capacity_group,3-4,1234,3232,38.18069306930693
+Toshima,capacity_group,5+,1055,3232,32.64232673267327
+Toshima,capacity_group,1-2,943,3232,29.176980198019802
+Toshima,host_portfolio_group,6+,2396,3232,74.13366336633663
+Toshima,host_portfolio_group,2-5,636,3232,19.678217821782177
+Toshima,host_portfolio_group,1,200,3232,6.188118811881188
+Taito,room_type,Entire home/apt,2477,3581,69.1706227310807
+Taito,room_type,Private room,982,3581,27.422507679419155
+Taito,room_type,Shared room,86,3581,2.401563808991902
+Taito,room_type,Hotel room,36,3581,1.005305780508238
+Taito,capacity_group,5+,1335,3581,37.28008936051382
+Taito,capacity_group,3-4,1310,3581,36.58196034627199
+Taito,capacity_group,1-2,936,3581,26.137950293214185
+Taito,host_portfolio_group,6+,2518,3581,70.3155543144373
+Taito,host_portfolio_group,2-5,881,3581,24.602066461882156
+Taito,host_portfolio_group,1,182,3581,5.082379223680536

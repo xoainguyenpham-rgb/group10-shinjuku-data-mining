@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Shared_Preparation_and_Audits/raw_data/*.csv
+*.zip

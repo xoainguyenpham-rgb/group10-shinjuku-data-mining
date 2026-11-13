@@ -1,0 +1,7 @@
+scope,cv_fold,validation_rows,rows_with_host_seen_in_training,share_with_host_seen_in_training
+fold_1_validation,1,834,708,0.8489208633093526
+fold_2_validation,2,833,749,0.8991596638655462
+fold_3_validation,3,833,712,0.8547418967587035
+fold_4_validation,4,833,690,0.8283313325330132
+fold_5_validation,5,833,707,0.8487394957983193
+all_pooled_validation_rows,,4166,3566,0.8559769563130101

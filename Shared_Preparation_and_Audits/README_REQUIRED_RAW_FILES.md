@@ -1,0 +1,2 @@
+# Required raw files
+Place the four original CSVs here in `raw_data/`, using the names in RAW_DATA_MANIFEST.csv. Remove upload suffixes such as `(1)` from filenames only; do not change contents. Q4 is supplementary; Q1–Q3 drive the main pipeline. The code ZIP excludes raw files and .gitignore prevents accidental ordinary-Git upload. Use your supplied originals. SHA-256 checks are performed by verify_results.py.

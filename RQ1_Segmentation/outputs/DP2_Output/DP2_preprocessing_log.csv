@@ -1,0 +1,7 @@
+﻿feature,rows_in_primary_cohort,missing_before_imputation,imputation_method,imputation_value,raw_skewness_before_winsorisation,winsorisation_applied,winsor_lower_p01,winsor_upper_p99,log1p_applied,standard_scaler_mean,standard_scaler_scale
+price_numeric,5328,0,None,,7.416122692159234,True,5615.37,231461.45089999508,True,10.035354009744816,0.6938479245591332
+accommodates_clean,5328,0,None,,1.782925282315304,True,1.0,16.0,True,1.5530140940413462,0.4576023920304919
+minimum_nights_clean,5328,0,None,,2.331173487091467,True,1.0,30.0,True,1.1501965671797398,0.8889703467236483
+availability_365_clean,5328,0,None,,-0.18313258902796553,False,,,False,196.10228978978978,96.68104045440063
+reviews_per_month_clean,5328,638,Median,1.39,9.094376048301472,True,0.07,5.27659999999998,True,0.8610783511375374,0.38613403912808214
+calculated_host_listings_count_clean,5328,0,None,,2.933296322628774,True,1.0,306.0,True,2.9084180378110065,1.2530278689414982

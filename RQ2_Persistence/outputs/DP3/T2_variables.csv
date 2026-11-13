@@ -1,0 +1,14 @@
+predictor,type,later_preprocessing,available_at_baseline,included_in_main_model
+room_type,categorical,Fit encoding only on each training fold.,Yes,Yes
+superhost_status,categorical,Fit encoding only on each training fold.,Yes,Yes
+price_numeric,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+accommodates_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+bedrooms_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+beds_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+bathrooms_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+minimum_nights_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+availability_365_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+number_of_reviews_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+reviews_per_month_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+review_scores_rating_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes
+calculated_host_listings_count_clean,numeric,Fit imputation and scaling only on each training fold.,Yes,Yes

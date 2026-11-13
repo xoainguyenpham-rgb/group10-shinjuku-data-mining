@@ -1,0 +1,15 @@
+M3 official runtime environment
+generated_at_utc=2026-11-12T14:02:40.842300+00:00
+official_results_source=M3_run_orange.py
+python=3.12.14
+Orange=3.40.0
+scikit-learn=1.5.2
+numpy=2.1.3
+pandas=2.2.3
+platform=Linux-6.18.57-x86_64-with-glibc2.41
+official_seed=20261031
+official_cv=Stratified 5-fold cross-validation
+official_cv_metric_aggregation=pooled out-of-fold predictions
+gui_workflow_role=process illustration; not the source of official numeric outputs
+orange_gui_test_and_score_seed=42 (Orange 3.40 internal setting)
+orange_gui_random_forest_replicable_seed=0

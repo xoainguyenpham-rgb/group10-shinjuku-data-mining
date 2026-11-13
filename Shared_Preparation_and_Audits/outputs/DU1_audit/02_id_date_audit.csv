@@ -1,0 +1,4 @@
+﻿snapshot,rows,first_scraped,last_scraped,missing_dates,invalid_dates,missing_ids,invalid_id_format,ids_with_whitespace,unique_nonmissing_ids,duplicate_id_rows
+2026_Q1,24790,2026-03-30,2026-04-03,0,0,0,0,0,24790,0
+2026_Q2,34419,2026-06-30,2026-07-03,0,0,0,0,0,34419,0
+2026_Q3,35970,2026-09-28,2026-10-04,0,0,0,0,0,35970,0

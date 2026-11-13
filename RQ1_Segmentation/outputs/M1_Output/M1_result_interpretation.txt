@@ -1,0 +1,20 @@
+M1 RESULT INTERPRETATION
+========================
+Final clustering tool: Orange Data Mining; final assignment: Orange K=5 labels.
+Silhouette sample: n=5,000; random seed=42; SHA-256=dc6e3553942298812ba74a5079894eea7f1c5f615a3995e0a6e02df302e59ee2.
+K=3: Silhouette=0.2446; mean pairwise seed ARI=0.9962; maximum cluster share=58.15%.
+K=4: Silhouette=0.2136; mean pairwise seed ARI=0.9920; maximum cluster share=34.07%.
+K=5: Silhouette=0.1994; mean pairwise seed ARI=0.9916; minimum cluster share=12.14%.
+Higher ARI indicates greater agreement between seed solutions; 1 indicates identical partitions up to label permutation.
+K=5 mean pairwise seed ARI=0.9916; the mean over K=6-8 is 0.8270 (lower).
+Silhouette ranking: K=3 0.2446 > K=4 0.2136 > K=5 0.1994. K=5 does not maximise Silhouette.
+At K=6, the smallest cluster represented 3.60% of the sample. This is a point for interpretability review, not automatic evidence that the model is poor.
+K=5 is selected for market-segmentation utility, not because it maximises Silhouette. K=3 is the strongest statistical baseline but leaves a broad majority segment; K=4 mainly separates standard listings by availability; K=5 provides additional differentiation in Tokyo-scoped host listing count and capacity/price profiles.
+Python best-seed K=5 vs Orange K=5 ARI=0.998458; Orange assignments remain the authoritative final labels.
+Sensitivity ARI columns are distinct: ari_vs_orange_primary compares a scenario's best partition with Orange K=5 labels on common IDs; mean/minimum pairwise ARI describe agreement among the 10 seed solutions within that scenario.
+For scenarios with different row counts, the ARI comparison uses an inner one-to-one listing_id join and only the common IDs. The 5,689-row price-imputation scenario is compared with the primary model on the 5,328 shared IDs.
+Feature sensitivity (ARI vs Orange K=5): no log transform=0.560; exclude host listing count=0.500; Ward method (2,000-ID sample)=0.549. Seed stability does not imply robustness to feature choice.
+Silhouette values in M1_sensitivity_analysis.csv come from different feature spaces and are not comparable across scenarios. Sensitivity Silhouettes use IDs with observed reviews_per_month only.
+Host listing count is interpreted as the number of listings associated with a host within the Tokyo scope, not as a count of listings owned by the host.
+Cluster 5 is named Higher-Priced, Large-Capacity Listings. The name describes observed price and capacity; it does not claim premium quality.
+Availability is not occupancy; review frequency is not booking volume. These descriptive segments do not establish profitability, listing activity, regulatory compliance, or host success.

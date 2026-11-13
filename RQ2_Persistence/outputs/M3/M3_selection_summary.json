@@ -1,0 +1,172 @@
+{
+  "analysis": "M3 official temporal model development",
+  "generated_at_utc": "2026-11-12T14:02:40.837338+00:00",
+  "input": {
+    "path": "T2_clean.csv",
+    "sha256": "00ae15d5d55161e72b1cbb7a38b3d32bf49d74aaa2312cd87698fabff673cf39",
+    "rows": 9855
+  },
+  "cohorts": {
+    "train": {
+      "definition": "Shinjuku listing features at 2026_Q1; label is listing ID observed anywhere in Tokyo at 2026_Q2.",
+      "rows": 4166,
+      "class_counts": {
+        "0": 266,
+        "1": 3900
+      }
+    },
+    "test": {
+      "definition": "Shinjuku listing features at 2026_Q2; label is listing ID observed anywhere in Tokyo at 2026_Q3.",
+      "rows": 5689,
+      "class_counts": {
+        "0": 317,
+        "1": 5372
+      }
+    }
+  },
+  "predictors": {
+    "categorical": [
+      "room_type",
+      "superhost_status"
+    ],
+    "numeric": [
+      "price_numeric",
+      "accommodates_clean",
+      "bedrooms_clean",
+      "beds_clean",
+      "bathrooms_clean",
+      "minimum_nights_clean",
+      "availability_365_clean",
+      "number_of_reviews_clean",
+      "reviews_per_month_clean",
+      "review_scores_rating_clean",
+      "calculated_host_listings_count_clean"
+    ],
+    "excluded": [
+      "listing_id",
+      "host_id",
+      "baseline_period",
+      "followup_period",
+      "split",
+      "present_next",
+      "capacity_group",
+      "host_portfolio_group",
+      "bathrooms",
+      "estimated_occupancy_l365d",
+      "estimated_revenue_l365d"
+    ]
+  },
+  "preprocessing": {
+    "steps": [
+      "Impute",
+      "Continuize",
+      "Normalize"
+    ],
+    "fit_scope": "Inside each learner fit. Therefore, preprocessing is fit only on each CV training fold and on the full train cohort before final test prediction.",
+    "unseen_test_category_values_mapped_to_missing_then_train_imputed": {
+      "room_type": 0,
+      "superhost_status": 0
+    }
+  },
+  "cv": {
+    "strategy": "StratifiedKFold",
+    "folds": 5,
+    "seed": 20261031,
+    "metric_aggregation": "Pooled out-of-fold predictions across all five validation folds; metrics are not the arithmetic mean of five fold-level metric values.",
+    "selection_metric": "f1_class_0",
+    "selection_tie_break_order": [
+      "f1_class_0 descending",
+      "recall_class_0 descending",
+      "precision_class_0 descending",
+      "auc_class_0 descending",
+      "fixed model order"
+    ],
+    "selection_pool": [
+      "Logistic Regression",
+      "Decision Tree",
+      "Random Forest"
+    ],
+    "constant_role": "Reported as the baseline and not eligible for model selection.",
+    "host_overlap_diagnostic": {
+      "validation_rows": 4166,
+      "rows_with_host_seen_in_training": 3566,
+      "share_with_host_seen_in_training": 0.8559769563130101,
+      "interpretation": "CV is stratified by class, not grouped by host. A validation row is marked seen when its host_id occurs in at least one of the other four folds."
+    }
+  },
+  "models": [
+    {
+      "name": "Constant",
+      "configuration": {
+        "learner": "MajorityLearner",
+        "model_parameters": "Orange defaults"
+      }
+    },
+    {
+      "name": "Logistic Regression",
+      "configuration": {
+        "learner": "LogisticRegressionLearner",
+        "penalty": "l2",
+        "C": 1.0,
+        "max_iter": 100,
+        "random_state": 20261031
+      }
+    },
+    {
+      "name": "Decision Tree",
+      "configuration": {
+        "learner": "TreeLearner",
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "name": "Random Forest",
+      "configuration": {
+        "learner": "RandomForestLearner",
+        "n_estimators": 10,
+        "max_features": "sqrt",
+        "random_state": 20261031
+      }
+    }
+  ],
+  "selected_model": {
+    "name": "Random Forest",
+    "selection_metrics": {
+      "f1_class_0": 0.33604336043360433,
+      "recall_class_0": 0.23308270676691728,
+      "precision_class_0": 0.6019417475728155,
+      "auc_class_0": 0.8083241758241758,
+      "accuracy": 0.9411905904944791
+    },
+    "final_test_metrics": {
+      "f1_class_0": 0.065,
+      "recall_class_0": 0.04100946372239748,
+      "precision_class_0": 0.1566265060240964,
+      "auc_class_0": 0.5754713657215472,
+      "accuracy": 0.9342590965020214
+    }
+  },
+  "final_test_protocol": "The final temporal test was evaluated once, after CV selection, for Constant and the selected non-constant model only.",
+  "official_results_source": {
+    "source": "M3_run_orange.py",
+    "seed": 20261031,
+    "gui_workflow_role": "M3_Orange_Q2.ows illustrates the process. Orange GUI Test & Score uses seed 42 and GUI Random Forest replicable training uses seed 0, so GUI values are not claimed to be numerically identical to the official script outputs."
+  },
+  "quality_checks": {
+    "compound_record_key_unique": true,
+    "train_test_temporal_split": true,
+    "no_random_reshuffle_of_train_and_test": true,
+    "test_not_used_for_selection": true,
+    "preprocessing_fit_on_train_scope_only": true
+  },
+  "runtime": {
+    "orange": "3.40.0",
+    "scikit_learn": "1.5.2",
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  }
+}
